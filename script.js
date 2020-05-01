@@ -6,9 +6,9 @@ function generateName(){
     var ran_num_2 = parseInt(Math.random() * ani_name.length);
 
     name = adj[ran_num_1]+ " "+ ani_name[ran_num_2];
-    //console.log("Name == "+ name);
+    
     document.getElementById("gen_text").innerHTML = name;
 }
 
+document.onload = generateName();
 document.getElementById("button").addEventListener("click", generateName);
-document.onload(generateName());
