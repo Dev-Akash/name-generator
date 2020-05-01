@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+}
+.header{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-size: 32px;
+}
+.gen_text{
+    color: black;
+    font-size: 72px;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+.button{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    top: 60%;
+    left: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    transform: translate(-50%);
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.ads{
+	margin:10px;
+	text-align: center;
+}
